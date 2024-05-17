@@ -16,6 +16,12 @@
 <body>
     <h1>Hemerson APP</h1>
     <p>Learning PWA sample Website</p>
+
+    <script>
+        if("serviceworker" in navigator){
+            navigator.serviceWorker.register("serviceworker.js");
+        }
+    </script>
     
 </body>
 </html>
